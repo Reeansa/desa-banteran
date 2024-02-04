@@ -1,0 +1,145 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* hover */
+.selengkapnya:hover {
+  color: #75b79e !important;
+}
+
+.hover-white:hover {
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #75b79e !important;
+}
+
+.hover-pastel:hover {
+  color: #75b79e !important;
+}
+
+/* card */
+.border-top-card {
+  width: 100%;
+  height: 10px;
+  border-radius: 4px 4px 0px 0px;
+  background-color: #75b79e;
+}
+
+/* title */
+.hr-header {
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* home */
+.bg-home {
+  background: url('../img/desa/desa-tugu.jpg'); 
+  background-size: cover; background-position: center; 
+  height: 100vh;
+}
+
+/* tentang desa */
+.bg-tentang {
+  background: url('../img/desa/desa-gedung.jpg'); 
+  background-size: cover; background-position: center; 
+  height: 100vh;
+}
+
+.sejarah {
+  color: rgb(74, 75, 60);
+  margin-bottom: 50px;
+  text-align: justify;
+  text-indent: 100px;
+}
+
+.visimisi {
+  color: rgb(74, 75, 60);
+  margin-bottom: 50px;
+}
+
+.hr-header2 {
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #4a4b3c;
+}
+
+.misi-list {
+  text-align: justify;
+}
+
+.visi-list {
+  text-align: justify;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute !important;
+  top: 0;
+  z-index: 1;
+}
+
+.cont-overlay {
+  position: relative;
+  z-index: 2;
+}
+
+/* layanan page */
+.nav-color-layanan {
+  color: #ffffff !important;
+}
+
+.dropdown-item {
+  color: #000 !important;
+}
+
+.dropdown-menu-set {
+  position: relative !important;
+  top: 90px !important;
+  left: 50px !important;
+  margin-left: -160px !important;
+
+}
+
+.btn-outline-secondary:hover {
+  background-color: #75b79e !important;
+}
+
+.dropdown-toggle.show {
+  background-color: #75b79e !important;
+}
+
+/* Navbar Active */
+#mainNav .nav-link.active {
+  background-color: #75b79e !important;
+}
+
+/* data penduduk */
+.txt-data-penduduk {
+  color: rgb(74,75,60);
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+/* fasilitas */
+.font-dark {
+  color: #4a4b3c !important;
+}
+
+/* @media(max-width:400px){
+  footer {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+} */
